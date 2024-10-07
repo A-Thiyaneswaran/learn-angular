@@ -61,6 +61,7 @@ export class DetailsComponent {
     this.housingLocation = this.housingService.getHousingLocationById(housingLocationId);
   }
   submitApplication() {
+    //to check if it is woring properly
     this.housingService.submitApplication(
       this.applyForm.value.firstName ?? '',
       this.applyForm.value.lastName ?? '',

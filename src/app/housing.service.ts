@@ -109,7 +109,7 @@ export class HousingService {
       laundry: true
     }
   ];
-
+  //get functions for forms
   getAllHousingLocations(): HousingLocation[] {
     return this.housingLocationList;
   }
